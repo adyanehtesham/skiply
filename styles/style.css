@@ -1,0 +1,159 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body, .start {
+  display: flex;
+}
+
+#intro {
+  min-height: 100vh;
+  background: #A42C35;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.408px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.start {
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: rgba(30, 30, 30, 0.75);
+  border-radius: 13px;
+  height: 48px;
+}
+
+#tag {
+  padding: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #FFFFFF;
+}
+
+#skipArrow {
+  align-self: center;
+  height: 22px;
+}
+
+#restaurantScreen {
+  flex-direction: column;
+  padding: 20px;
+  background: #EFEFEF;
+}
+
+.restaurantScreenNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#restaurantScreenLocation {}
+
+#locationName {
+  flex-grow: 6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: -0.408px;
+  text-decoration-line: underline;
+  color: rgba(30, 30, 30, 0.9);
+  padding-left: 10px;
+}
+
+#shoppingCart {}
+
+#searchContainer {}
+
+#searchField {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 22px;
+  width: 100%;
+  background: rgba(118, 118, 128, 0.24);
+  border-radius: 10px;
+  padding: 7px;
+  max-width: 500px;
+  align-self: center;
+}
+
+#searchIcon {
+  height: 18px;
+}
+
+#searchText {
+  padding-left: 10px;
+  font-size: 18px;
+  flex-grow: 6;
+  line-height: 22px;
+}
+
+#microphone {
+  height: 18px;
+}
+
+#TitleAndFilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#restaurantScreenTitle {
+  font-size: 24px;
+  flex-grow: 2;
+}
+
+#filter {
+  height: 24px;
+}
+
+.restaurantSelection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#restaurant {
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-between;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  border-radius: 22px;
+  box-sizing:border-box;
+  background: #FFFFFF;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.9);
+  background-size: cover;
+}
+
+#restaurant>p {
+  font-size: 14px;
+  margin:0;
+}
+
+#fav {
+  height: 14px;
+}
