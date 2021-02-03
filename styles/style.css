@@ -116,10 +116,10 @@ body, .start {
 #TitleAndFilter {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-#restaurantScreenTitle {
+#screenTitle {
   font-size: 24px;
   flex-grow: 2;
 }
@@ -156,4 +156,66 @@ body, .start {
 
 #fav {
   height: 14px;
+}
+
+.foodSelection {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+#food {
+  width: 50%;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+#food>p {
+  margin:auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+
+#foodMenuName {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#food>img {
+  width: 100%;
+}
+
+#sort {
+  font-size: 12px;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+#price {
+  font-size: 16px;
+}
+
+#prep {
+  font-size: 12px;
+}
+
+#size {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#backArrow {
+  height: 22px;
+
+}
+
+.foodScreenNav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
