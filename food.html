@@ -2,18 +2,19 @@
 <html>
 
 <head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link href="styles/style.css" rel="stylesheet">
   <meta charset="utf-8">
   <title>Food Showcase</title>
 </head>
 
 <body id="restaurantScreen">
-
   <div class="foodScreenNav">
-    <img src="assets/backArrow.svg" id="backArrow"></img>
+    <a href="foodSelection.html"><img src="assets/backArrow.svg" id="backArrow"></img></a>
     <img src="assets/shoppingCart.svg" id="shoppingCart"></img>
   </div>
 
+  <img src="assets/vegSaladLarge.png" id="largeThumb"></img>
   <div id="foodImage">
   </div>
 
@@ -21,6 +22,39 @@
     <h1 id="screenTitle">Vegetable Salad</h1>
   </div>
 
+  <div id="foodInfo">
+    <h3>Ingredients</h3>
+    <p id="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo <b>... more</b>
+    <p>
+  </div>
+
+  <div class="deliveryDetails">
+    <img src="assets/locationArrow.svg"><img>
+    <p><u>Location: Area, City</u></p>
+  </div>
+
+  <div class="deliveryDetails">
+    <img src="assets/timer.svg"><img>
+    <p><u>Delivery Time: 30 mins</u></p>
+  </div>
+
+
+  <div class="switch-field">
+    <input type="radio" id="small" name="switch-two" value="yes" checked />
+    <label for="small">Small</label>
+    <input type="radio" id="medium" name="switch-two" value="maybe" />
+    <label for="medium">Medium</label>
+    <input type="radio" id="large" name="switch-two" value="no" />
+    <label for="large">Large</label>
+  </div>
+
+  <div class="number">
+    <span class="minus">-</span>
+    <input type="text" value="1" />
+    <span class="plus">+</span>
+  </div>
+
+  <script src="scripts/scripts.js"></script>
 
 </body>
 
