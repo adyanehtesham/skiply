@@ -3,12 +3,12 @@ Small concept food delivery app. To showcase what I learned in my internship at 
 
 Designed in Figma. Built with HTML/CSS/JavaScript.
 
-Best viewed in your browswer's responsive design mode using <code>ctrl+shift+m</code> with a resolution of <code>375 x 812</code>.
+Best viewed in your browswer's responsive design mode using <code>ctrl+shift+m</code> (on Firefox at least) with a resolution of <code>375 x 812</code>.
 
 <table>
 <tr>
 <th align="center">
-<img width="375" height="1">
+<img width="441" height="1">
 <p> 
 <small>
 Splash Screen
@@ -16,15 +16,25 @@ Splash Screen
 </p>
 </th>
 <th align="center">
-<img width="375" height="1">
+<img width="441" height="1" >
 <p> 
 <small>
 Restaurant View
 </small>
 </p>
 </th>
+</tr>
+<tr>
+<td>
+<img src="preview/splash.png" align="center"></img>
+</td>
+<td>
+<img align="center" src="preview/restaurant.png"></img>
+</td>
+</tr>
+<tr>
 <th align="center">
-<img width="375" height="1">
+<img width="441" height="1">
 <p> 
 <small>
 Menu View
@@ -32,7 +42,7 @@ Menu View
 </p>
 </th>
 <th align="center">
-<img width="375" height="1">
+<img width="441" height="1">
 <p> 
 <small>
 Meal View
@@ -42,16 +52,10 @@ Meal View
 </tr>
 <tr>
 <td>
-<img src="preview/splash.png"></img>
+<img src="preview/food.png" align="center"></img>
 </td>
 <td>
-<img src="preview/restaurant.png"></img>
-</td>
-<td>
-<img src="preview/food.png"></img>
-</td>
-<td>
-<img src="preview/meal.png"></img>
+<img src="preview/meal.png" align="center"></img>
 </td>
 </tr>
 </table>
