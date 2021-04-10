@@ -25,11 +25,11 @@ Restaurant View
 </th>
 </tr>
 <tr>
-<td>
-<img src="preview/splash.png" align="center"></img>
+<td align="center">
+<img src="preview/splash.png"></img>
 </td>
-<td>
-<img align="center" src="preview/restaurant.png"></img>
+<td align="center">
+<img src="preview/restaurant.png"></img>
 </td>
 </tr>
 <tr>
@@ -51,11 +51,11 @@ Meal View
 </th>
 </tr>
 <tr>
-<td>
-<img src="preview/food.png" align="center"></img>
+<td align="center">
+<img src="preview/food.png"></img>
 </td>
-<td>
-<img src="preview/meal.png" align="center"></img>
+<td align="center">
+<img src="preview/meal.png"></img>
 </td>
 </tr>
 </table>
