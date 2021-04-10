@@ -5,6 +5,8 @@ Skiply because you're skipping restaurant lines or something ¯\\\_(ツ)\_/¯
 
 Designed in Figma. Built with HTML/CSS/JavaScript.
 
+Also created a [FAQ chat bot](https://github.com/adyanehtesham/faq-bot) to accompany this project.
+
 Best viewed in your browswer's responsive design mode using <code>ctrl+shift+m</code> (on Firefox at least) with a resolution of <code>375 x 812</code>.
 
 <table>
